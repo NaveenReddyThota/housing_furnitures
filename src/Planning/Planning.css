@@ -1,0 +1,135 @@
+.plannings{
+    position: absolute;
+    top: 2500px;
+    left: 140px;
+}
+.flexx{
+    display: flex;
+    gap: 110px;
+}
+.main-head-b{
+    margin-top: -20px;
+}
+.step-a{
+    border: 1px solid black ;
+    border-left: 0ch;
+    border-right: 0ch;
+}
+.step-c{
+    margin-top: -10px;
+}
+.step-d{
+    margin-top: -15px;
+    margin-left: 5px;
+}
+.design-images{
+    display: flex;
+    gap: 50px;
+}
+.consult-img{
+border-radius: 20px;
+}
+.plan-img{
+    border-radius: 20px;
+}
+.excution-img{
+    margin-left: 10px;
+    border-radius: 20px;
+
+}
+
+
+@media (max-width: 896px) {
+
+   .plannings{
+    position: absolute;
+    top: 940px;
+    left: 60px;
+}
+
+.main-fx{
+  /* display: grid; */
+}
+
+.flexx{
+    display: flex;
+    gap: 10px;
+    margin-left: -30px;
+}
+
+
+.main-head-b{
+    margin-top: -10px;
+    font-size: 12px;
+    margin-left: -30px;
+
+
+}
+.main-head-a{
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: -30px;
+
+}
+
+
+.step-a{
+    border: 1px solid black ;
+   
+    font-size: 12px;
+    width: 80px;
+    /* display: none; */
+
+     border-left: 0ch;
+    border-right: 0ch;
+
+}
+.step-b{
+    font-size: 9px;
+    margin-top: 10px;
+}
+.step-c{
+    font-size: 6px;
+    margin-top: -5px;
+    margin-left: -5px;
+
+}
+
+.step-d{
+    font-size: 9px;
+    margin-top: -5px;
+
+}
+
+.design-images{
+    display: flex;
+    gap: 10px;
+}
+
+.consult-img{
+border-radius: 20px;
+width: 100px;
+height: 100px;
+margin-left: -30px;
+}
+
+
+
+
+.plan-img{
+    border-radius: 20px;
+    width: 100px;
+height: 100px;
+margin-left: 10px;
+
+}
+.excution-img{
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 100px;
+height: 100px;
+
+}
+
+}
+

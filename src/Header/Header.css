@@ -1,0 +1,167 @@
+.main-heading{
+
+    
+}
+.container{
+  background: url(/src/assets/images/furniture.png);
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  width: 1410px;
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -5;
+}
+.head{
+text-align: center; 
+   font-size: 50px;
+   margin-top: 100px;
+   position: relative;
+   top: 100px;
+}
+.headings{
+text-align: center; 
+   font-size: 55px;
+   margin-top: -30px;
+   position: relative;
+   top: 100px;
+}
+.description{
+     text-align: center;
+     font-size: 14px;
+     position: relative;
+   top: 100px;
+}
+.descriptions{
+     text-align: center;
+     font-size: 15px;
+    margin-top: -10px;
+    position: relative;
+   top: 100px;
+    
+}
+.button-section{
+
+}
+.butt-on{
+    position: relative;
+    left: 577px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    position: relative;
+   top: 100px;
+}
+.buttons{
+        position: relative;
+    left: 700px;
+    top: -39px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+   top: 62px;
+
+
+}
+.right-img{
+   position: relative;
+   top: 100px;
+}
+
+
+
+
+@media (max-width :896px) {
+
+   .container{
+  background: url(/src/assets/images/furniture.png);
+  position: absolute;
+  top: 0px;
+  left: 17px;
+  right: 18px;
+  width: 380px;
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -5;
+}
+
+
+.head{
+text-align: center; 
+   font-size: 20px;
+   margin-top: 70px;
+   position: relative;
+   top: 10px;
+}
+
+
+.headings{
+text-align: center; 
+   font-size: 25px;
+   margin-top: 0px;
+   position: relative;
+   top: -5px;
+}
+
+.description{
+     text-align: center;
+     font-size: 7px;
+     position: relative;
+   top: -10px;
+}
+
+.descriptions{
+     text-align: center;
+     font-size: 8px;
+    margin-top: -12px;
+    position: relative;
+   top: 0px;
+    
+}
+
+
+
+.butt-on{
+    position: relative;
+    left: 107px;
+    padding: 5px 10px;
+    font-size: 8px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    position: relative;
+   top: 0px;
+}
+
+
+.buttons{
+        position: relative;
+    left: 177px;
+    top: -22px;
+    padding: 5px 10px;
+    font-size: 8px;
+    border-radius: 20px;
+    background-color: white;
+
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+

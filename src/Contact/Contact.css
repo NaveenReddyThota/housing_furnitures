@@ -1,0 +1,176 @@
+.details{
+    position: absolute;
+    top: 3200px;
+    /* text-align: center;   */
+    
+}
+.centers-a{
+    font-size: 45px;
+    position: relative;
+    left: 430px;
+}
+.centers-b{
+     font-size: 18px;
+     margin-top: -20px;
+    position: relative;
+    left: 430px;
+
+}
+.centers-c{
+     font-size: 18px;
+     margin-top: -16px;
+    position: relative;
+    left: 430px;
+
+
+
+}
+.flexess{
+    display: flex;
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+.images-heads{
+    display: flex;
+    position: relative;
+    top: 140px;
+}
+.headss-a{
+    margin-top: -2px;
+    font-size: 20px;
+}
+.headss-b{
+    margin-top: -13px;
+}
+.heads-a{
+    font-size: 30px;
+}
+.heads-b{
+    font-size: 16px;
+}
+.headss{
+    /* margin-top: -20px; */
+    padding: 10px 30px; 
+  
+}
+.rate{
+    position: relative;
+    top: -80px;
+    left: -80px;
+}
+.hea{
+    position: relative;
+    top: 50px;
+}
+.imrate{
+    position: relative;
+    top: 0px;
+}
+.design-at{
+  border-radius: 20PX;
+
+}
+
+
+
+
+@media (max-width: 896px) {
+    .details{
+    position: absolute;
+    top: 1190px;
+    /* text-align: center;   */
+    
+}
+
+
+.centers-a{
+    font-size: 15px;
+    position: relative;
+    left: 80px;
+}
+
+
+.centers-b{
+     font-size: 8px;
+     margin-top: -5px;
+    position: relative;
+    left: 80px;
+
+}
+
+
+.centers-c{
+     font-size: 8px;
+     margin-top: -5px;
+    position: relative;
+    left: 80px;
+
+
+
+}
+
+
+.flexess{
+    display: flex;
+    position: relative;
+    
+    left: 10px;
+    top: 100px;
+}
+
+
+.heads-a{
+    font-size: 10px;
+}
+.heads-b{
+    font-size: 6px;
+}
+.men-img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.headss-a{
+    margin-top: 2px;
+    font-size: 10px;
+    margin-left: 2px;
+
+}
+.headss-b{
+    margin-top: -6px;
+    font-size: 8px;
+    margin-left: 2px;
+}
+
+
+.rate{
+    position: relative;
+    top: -45px;
+    left: -48px;
+    width: 110px;
+    height: 110px;
+}
+
+.images-heads{
+    margin-top: -70px;
+}
+.hea{
+    margin-top: -61px;
+}
+.design-img{
+   margin-top: -50px;
+}
+.design-at{
+    width: 140px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+}

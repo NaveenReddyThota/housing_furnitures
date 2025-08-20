@@ -1,5 +1,6 @@
 import React from 'react'
 import './Planning.css'
+import { assets } from '../assets/assets'
 
 const Planning = () => {
   return (
@@ -25,7 +26,7 @@ const Planning = () => {
             <p className='step-d'>and design concept.</p>
           </div>
            <div className='consult'>
-            <img className='consult-img' src="/src/assets/images/consult.png" width={380} height={300} />
+            <img className='consult-img' src={assets.consulting} width={380} height={300} />
           </div>
           <div className='steps'>
             <h1 className='step-a'>02</h1>
@@ -34,7 +35,7 @@ const Planning = () => {
             <p className='step-d'>and design concept.</p>
           </div>
           <div className='plan'>
-            <img className='plan-img' src="/src/assets/images/plan-a.png" width={380} height={300} />
+            <img className='plan-img' src={assets.plan_details} width={380} height={300} />
 
           </div>
           <div className='steps'>
@@ -44,7 +45,7 @@ const Planning = () => {
             <p className='step-d'>and design concept.</p>
           </div>
           <div className='excution'>
-            <img className='excution-img' src="/src/assets/images/excution-b.png" width={350} height={300} />
+            <img className='excution-img' src={assets.kitchen_hall} width={350} height={300} />
           </div>
 
         </div>

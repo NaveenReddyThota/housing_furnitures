@@ -31,9 +31,9 @@ const Design = () => {
             <input type="radio" name='slide' id='img4' checked />
 
             <img src={assets.furniture} className='img-a' alt="img1"  width={1000} height={700} />
-            <img src="/src/assets/images/img2.png" className='img-b' alt="img2"  width={1000} height={700} />
-            <img src="/src/assets/images/img3.png" className='img-c' alt="img3"  width={1000} height={700} />
-            <img src="/src/assets/images/img4.png" className='img-d' alt="img4"  width={1000} height={700} />
+            <img src={assets.furniture_hall} className='img-b' alt="img2"  width={1000} height={700} />
+            <img src={assets.meeting_room} className='img-c' alt="img3"  width={1000} height={700} />
+            <img src={assets.bedroom} className='img-d' alt="img4"  width={1000} height={700} />
 
         </div>
 

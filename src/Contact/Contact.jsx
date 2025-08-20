@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import { assets } from '../assets/assets'
 
 const Contact = () => {
     return (
@@ -29,13 +30,13 @@ const Contact = () => {
 
                         <div className='images-heads'>
                             <div className='men'>
-                                <img className='men-img' src="/src/assets/images/bussiness.png" width={50} height={50} />
+                                <img className='men-img' src={assets.men_official} width={50} height={50} />
                             </div>
                             <div className='headsss'>
                                 <h1 className='headss-a'>John Doe</h1>
                                 <p className='headss-b' >Lorem ipsum dolor sit.</p>
                                 <div className='imrate'>
-                                <img className='rate' src="/src/assets/images/star.png" width={200} height={200} />
+                                <img className='rate' src={assets.star_rates} width={200} height={200} />
 
                                 </div>
 
@@ -50,7 +51,7 @@ const Contact = () => {
 
 
                   <div className='design-img'>
-                    <img className='design-at' src="/src/assets/images/designat.png" width={600} height={500} />
+                    <img className='design-at' src={assets.luxury_room} width={600} height={500} />
 
                   </div>
 

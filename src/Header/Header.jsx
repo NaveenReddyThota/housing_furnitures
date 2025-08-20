@@ -7,8 +7,8 @@ const Header = () => {
             <div className='main-heading'>
                 <h1 className='head'>Crafting your dreams</h1>
                 <h1 className='headings'>Space, inside and out</h1>
-                <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, vitae?</p>
-                <p className='descriptions'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, vitae?</p>
+                <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p className='descriptions'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
 
                 <div className='button-section'>

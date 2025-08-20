@@ -39,12 +39,13 @@ border-radius: 20px;
 }
 
 
-@media (max-width: 896px) {
+@media (min-width:380px) {
+
 
    .plannings{
     position: absolute;
-    top: 940px;
-    left: 60px;
+    top: 840px;
+    left: 70px;
 }
 
 .main-fx{
@@ -52,23 +53,26 @@ border-radius: 20px;
 }
 
 .flexx{
-    display: flex;
+    display: grid;
     gap: 10px;
-    margin-left: -30px;
+    margin-left: 30px;
 }
 
 
 .main-head-b{
-    margin-top: -10px;
-    font-size: 12px;
-    margin-left: -30px;
+    margin-top: 5px;
+    font-size: 18px;
+    margin-left: 30px;
+    text-decoration: underline;
+
 
 
 }
 .main-head-a{
     margin-top: 20px;
-    font-size: 12px;
-    margin-left: -30px;
+    font-size: 18px;
+    margin-left: 0px;
+    text-decoration: underline;
 
 }
 
@@ -76,7 +80,7 @@ border-radius: 20px;
 .step-a{
     border: 1px solid black ;
    
-    font-size: 12px;
+    font-size: 15px;
     width: 80px;
     /* display: none; */
 
@@ -85,13 +89,16 @@ border-radius: 20px;
 
 }
 .step-b{
-    font-size: 9px;
+    font-size: 15px;
     margin-top: 10px;
+    text-decoration: underline;
+
 }
 .step-c{
-    font-size: 6px;
+    font-size: 8px;
     margin-top: -5px;
     margin-left: -5px;
+
 
 }
 
@@ -102,15 +109,15 @@ border-radius: 20px;
 }
 
 .design-images{
-    display: flex;
+    display: grid;
     gap: 10px;
 }
 
 .consult-img{
 border-radius: 20px;
-width: 100px;
-height: 100px;
-margin-left: -30px;
+width: 200px;
+height: 200px;
+margin-left: 0px;
 }
 
 
@@ -118,16 +125,16 @@ margin-left: -30px;
 
 .plan-img{
     border-radius: 20px;
-    width: 100px;
-height: 100px;
-margin-left: 10px;
+    width: 200px;
+height: 200px;
+margin-left: 0px;
 
 }
 .excution-img{
-    margin-left: 10px;
+    margin-left: 0px;
     border-radius: 20px;
-    width: 100px;
-height: 100px;
+    width: 200px;
+height: 200px;
 
 }
 

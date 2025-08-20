@@ -12,7 +12,7 @@ const About = () => {
                 <h3 className='left-b'>Beauty to your Space</h3>
             </div>
             <div className='side-paragraph'>
-                <p className='right'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At error modi <br /> sint sunt temporibus cumque ratione reprehenderit, necessitatibus sequi  <br /> ducimus repellendus suscipit aspernatur ex aliquam iure nulla id rerum.</p>
+                <p className='right'>Lorem ipsum dolor sit amet consectetur adipisicing elit.  <br /> sint sunt temporibus cumque ratione reprehenderit, nece <br /> ducimus repellendus suscipit aspernatur ex .</p>
                 <button className='des'>Design yours</button>
             </div>
         </div>

@@ -95,11 +95,12 @@
 
 
 
-@media (max-width: 896px) {
+@media (min-width: 380px) {
     .centerr-headings{
     
         position: absolute;
-        top: 600px; 
+        top: 520px;
+        left: -10px; 
  
 }
 
@@ -143,11 +144,11 @@
 }
 .slider{
     position: absolute;
-    top: 690px;
+    top: 590px;
     left: 0px;
     text-align: center;
     overflow: hidden;
-    width: 60%;
+    width: 80%;
     
 }
 .slider-img{
@@ -174,9 +175,10 @@
     transition: all 0.15s ease;
     margin-top: 220px;
     position: relative;
-    left: 120px;
+    left: 150px;
 
 }
+
 
 
 

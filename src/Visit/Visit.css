@@ -84,17 +84,17 @@
 
 
 
-@media (max-width:896px) {
+@media (min-width:380px) {
 
 
     .visits{
     position: absolute;
-    top: 1550px;
+    top: 2250px;
     padding-bottom: 70px;
     border: 1px solid black;
     margin-left: 9px;
-    width: 378px;
-    height: 600px;
+    width: 360px;
+    height: 450px;
     background-color: black;
     color: white;
     
@@ -112,7 +112,7 @@
 }
 .h-left{
    margin-left: -130px;
-   font-size: 15px;
+   font-size: 16px;
 }
 
 .hs-left{
@@ -127,20 +127,23 @@
 
 
 .b-but{
-    margin-left: 100px;
+    margin-left: -40px;
     margin-right: 0px;
     padding: 5px 10px;
     font-size: 10px;
     border-radius: 20px;
-    margin-top: 60px;
+    margin-top: 95px;
 }
 .l-disc{
     margin-left: 24px;
     font-size: 15px;
+    text-decoration: underline;
 }
 
 .l-con{
     margin-left: -124px;
+    text-decoration: underline;
+
 }
 .l-num{
     margin-left: -124px;
@@ -149,19 +152,23 @@
 
 .l-wor{
   margin-left: -200px;
+    text-decoration: underline;
+
 }
 .l-nums{
   margin-left: -200px;
 
 }
 .l-pant{
-    margin-left: -635px;
-    font-size: 17px;
-    margin-top: 50px;
+    margin-left: -680px;
+    font-size: 18px;
+    margin-top: 40px;
 }
 
 .l-em{
 margin-left: -124px;
+    text-decoration: underline;
+
 }
 .l-mail{
 margin-left: -124px;
@@ -169,9 +176,9 @@ font-size: 12px;
 
 }
 .e-mai{
-    margin-left: -200px;
+    margin-left: -239px;
     font-size: 8px;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 .l-second{
     margin-left: 150px;

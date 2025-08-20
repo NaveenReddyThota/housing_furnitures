@@ -96,7 +96,7 @@ const Visit = () => {
 
             <div className='e-ma'>
               <p className='l-em'>e-mail</p>
-              <p className='l-mail'>info@princereddy.gmail.com</p>
+              <p className='l-mail'>info@princereddygmail.com</p>
 
             </div>
 

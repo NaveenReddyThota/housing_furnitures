@@ -36,12 +36,13 @@
 
 }
 
-@media (max-width:896px){
+@media (min-width:380px){
     .title {
         max-width: 100%;
 
     margin-left: 10px;
-    font-size: 18px;
+    font-size: 15px;
+    margin-top: 5px;
     margin-right: 0px;
     
 
@@ -50,8 +51,8 @@
 
 .titles {
     font-size: 10px;
-    padding-top: 20px;
-    padding-left: 10px;
+    padding-top: 11px;
+    padding-left: 7px;
     margin-top: -18px;
 
 }
@@ -60,8 +61,8 @@
     font-size: 8px;
     margin-left: 10px;
     position: relative;
-    top: 13px;
-    padding: 5px 5px;
+    top: 3px;
+    padding: 2px 2px;
     border-radius: 20px;
     background-color: black;
     color: white;

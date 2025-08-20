@@ -50,7 +50,7 @@ const Contact = () => {
 
 
                   <div className='design-img'>
-                    <img className='design-at' src="/src/assets/images/designat.png" width={500} height={500} />
+                    <img className='design-at' src="/src/assets/images/designat.png" width={600} height={500} />
 
                   </div>
 

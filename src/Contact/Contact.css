@@ -75,19 +75,20 @@
 
 
 
-@media (max-width: 896px) {
+@media (min-width: 380px) {
     .details{
     position: absolute;
-    top: 1190px;
+    top: 1890px;
     /* text-align: center;   */
     
 }
 
 
 .centers-a{
-    font-size: 15px;
+    font-size: 18px;
     position: relative;
-    left: 80px;
+    left: 50px;
+    
 }
 
 
@@ -116,12 +117,12 @@
     position: relative;
     
     left: 10px;
-    top: 100px;
+    top: 80px;
 }
 
 
 .heads-a{
-    font-size: 10px;
+    font-size: 15px;
 }
 .heads-b{
     font-size: 6px;
@@ -170,7 +171,9 @@
 
 
 
-
+.headss{
+    margin-top: -20px ;
+}
 
 
 }

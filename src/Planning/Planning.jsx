@@ -24,11 +24,18 @@ const Planning = () => {
             <p className='step-c'>"We collaborate with u to understand your vision</p>
             <p className='step-d'>and design concept.</p>
           </div>
+           <div className='consult'>
+            <img className='consult-img' src="/src/assets/images/consult.png" width={380} height={300} />
+          </div>
           <div className='steps'>
             <h1 className='step-a'>02</h1>
             <h1 className='step-b'>Design & Planning</h1>
             <p className='step-c'>"We collaborate with u to understand your vision</p>
             <p className='step-d'>and design concept.</p>
+          </div>
+          <div className='plan'>
+            <img className='plan-img' src="/src/assets/images/plan-a.png" width={380} height={300} />
+
           </div>
           <div className='steps'>
             <h1 className='step-a'>03</h1>
@@ -36,28 +43,17 @@ const Planning = () => {
             <p className='step-c'>"We collaborate with u to understand your vision</p>
             <p className='step-d'>and design concept.</p>
           </div>
-
-        </div>
-
-
-
-
-
-        <div className='design-images'>
-
-          <div className='consult'>
-            <img className='consult-img' src="/src/assets/images/consult.png" width={380} height={300} />
-          </div>
-          <div className='plan'>
-            <img className='plan-img' src="/src/assets/images/plan-a.png" width={380} height={300} />
-
-          </div>
           <div className='excution'>
             <img className='excution-img' src="/src/assets/images/excution-b.png" width={350} height={300} />
           </div>
 
-
         </div>
+
+
+
+
+
+        
 
         </div>
 

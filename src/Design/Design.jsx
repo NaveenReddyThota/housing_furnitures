@@ -1,5 +1,6 @@
 import React from 'react'
 import './Design.css'
+import { assets } from '../assets/assets'
 
 const Design = () => {
   return (
@@ -29,7 +30,7 @@ const Design = () => {
             <input type="radio" name='slide' id='img3' checked />
             <input type="radio" name='slide' id='img4' checked />
 
-            <img src="/src/assets/images/img1.png" className='img-a' alt="img1"  width={1000} height={700} />
+            <img src={assets.furniture} className='img-a' alt="img1"  width={1000} height={700} />
             <img src="/src/assets/images/img2.png" className='img-b' alt="img2"  width={1000} height={700} />
             <img src="/src/assets/images/img3.png" className='img-c' alt="img3"  width={1000} height={700} />
             <img src="/src/assets/images/img4.png" className='img-d' alt="img4"  width={1000} height={700} />

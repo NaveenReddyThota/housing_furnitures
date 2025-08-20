@@ -1,4 +1,4 @@
-import furniture from './images/img.1png'
+import furniture from '../assets/images/img1.png'
 
 
 

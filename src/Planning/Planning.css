@@ -5,7 +5,7 @@
 }
 .flexx{
     display: flex;
-    gap: 110px;
+    gap: 60px;
 }
 .main-head-b{
     margin-top: -20px;
@@ -38,105 +38,94 @@ border-radius: 20px;
 
 }
 
-
-@media (min-width:380px) {
-
-
-   .plannings{
-    position: absolute;
-    top: 840px;
-    left: 70px;
-}
-
-.main-fx{
-  /* display: grid; */
-}
-
-.flexx{
-    display: grid;
-    gap: 10px;
-    margin-left: 30px;
-}
+@media (min-width:380px) and (max-width:600px) {
 
 
-.main-head-b{
-    margin-top: 5px;
-    font-size: 18px;
-    margin-left: 30px;
-    text-decoration: underline;
+    .plannings{
+        position: absolute;
+        top: 880px;
+        left: 20px;
+    }
+    .flexx{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .main-head-b{
+        margin-top: -10px;
+        font-size: 18px;
+        text-decoration: underline;
+
+    }
+    .main-head-a{
+        font-size: 20px;
+        margin-top: 10px;
+        text-decoration: underline;
+
+    }
+    .step-a{
+        border: 1px solid black ;
+        border-left: 0ch;
+        border-right: 0ch;
+        width: 100%;
+        font-size: 15px;
+
+    }
+    .step-b{
+        margin-top: -5px;
+        font-size: 20px;
+        text-decoration: underline;
+        margin-left: 20px;
+    }
+    .step-c{
+        margin-top: -8px;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .step-d{
+        margin-top: -11px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-left: 25px;
+
+    }
+    .design-images{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .consult-img{
+        border-radius: 20px;
+        width: 70%;
+        height: 200px;
+        margin-left: 40px;
+        margin-top: 15px;
+
+    }
+    .plan-img{
+        border-radius: 20px;
+        width: 70%;
+        height: 200px;
+        margin-left: 40px;
+        margin-top: 15px;
+
+
+    }
+    .excution-img{
+        margin-left: 40px;
+        border-radius: 20px;
+        width: 70%;
+        height: 200px;
+        margin-top: 15px;
+
+    }
+ 
 
 
 
-}
-.main-head-a{
-    margin-top: 20px;
-    font-size: 18px;
-    margin-left: 0px;
-    text-decoration: underline;
-
-}
-
-
-.step-a{
-    border: 1px solid black ;
-   
-    font-size: 15px;
-    width: 80px;
-    /* display: none; */
-
-     border-left: 0ch;
-    border-right: 0ch;
-
-}
-.step-b{
-    font-size: 15px;
-    margin-top: 10px;
-    text-decoration: underline;
-
-}
-.step-c{
-    font-size: 8px;
-    margin-top: -5px;
-    margin-left: -5px;
-
-
-}
-
-.step-d{
-    font-size: 9px;
-    margin-top: -5px;
-
-}
-
-.design-images{
-    display: grid;
-    gap: 10px;
-}
-
-.consult-img{
-border-radius: 20px;
-width: 200px;
-height: 200px;
-margin-left: 0px;
-}
 
 
 
 
-.plan-img{
-    border-radius: 20px;
-    width: 200px;
-height: 200px;
-margin-left: 0px;
-
-}
-.excution-img{
-    margin-left: 0px;
-    border-radius: 20px;
-    width: 200px;
-height: 200px;
 
 }
-
-}
-

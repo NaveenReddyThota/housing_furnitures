@@ -11,7 +11,7 @@ const Contact = () => {
 
                 <div className='center-head'>
                     <h1 className='centers-a'>Our Clients Love To Talk About Us</h1>
-                    <p className='centers-b'> Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, totam!</p>
+                    <p className='centers-b'> Lorem ipsum dolor, sit amet consectetur adipisicing </p>
                     <p className='centers-c'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
                 </div>
@@ -22,10 +22,10 @@ const Contact = () => {
 
                     <div className='headss'>
                         <div className='hea'>
-                        <h1 className='heads-a'>Clients Feedback</h1>
-                        <p className='heads-b'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Similique laudantium, molestias repellat a minima itaqu <br /> veritatis quis tempore exercitationem dolor praesentium <br /> porro maiores facilis sint iure officia hic ea, harum dolo. <br /> Totam numquam accusamus, iste natus laboriosam dolo <br /> magni alias, aliquid, atque odio cumque perferhaiuendis <br /> eos necessitatibus quaerat amet. Lorem ipsum dolor siit.</p>
+                            <h1 className='heads-a'>Clients Feedback</h1>
+                            <p className='heads-b'>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Similique laudantium, molestias repellat a minima itaqu <br /> veritatis quis tempore exercitationem dolor praesentium <br /> porro maiores facilis sint iure officia hic ea, harum dolo. <br /> Totam numquam accusamus, iste natus laboriosam dolo <br /> magni alias, aliquid, atque odio cumque perferhaiuendis <br /> eos necessitatibus quaerat amet. Lorem ipsum dolor siit.</p>
 
-                         </div>
+                        </div>
 
 
                         <div className='images-heads'>
@@ -36,7 +36,7 @@ const Contact = () => {
                                 <h1 className='headss-a'>John Doe</h1>
                                 <p className='headss-b' >Lorem ipsum dolor sit.</p>
                                 <div className='imrate'>
-                                <img className='rate' src={assets.star_rates} width={200} height={200} />
+                                    <img className='rate' src={assets.star_rates} width={200} height={200} />
 
                                 </div>
 
@@ -50,10 +50,10 @@ const Contact = () => {
 
 
 
-                  <div className='design-img'>
-                    <img className='design-at' src={assets.luxury_room} width={600} height={500} />
+                    <div className='design-img'>
+                        <img className='design-at' src={assets.luxury_room} width={600} height={500} />
 
-                  </div>
+                    </div>
 
 
 

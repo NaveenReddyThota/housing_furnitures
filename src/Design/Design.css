@@ -52,7 +52,7 @@
 }
 .slider-img{
     display: flex;
-    width: 100%;
+    width: 80%;
 
 }
 .slider-img img {
@@ -80,7 +80,7 @@
     background-color: #fff;
 }
 #img1:checked ~ .img-a {
-    margin-left: 0;
+    margin-left: 10px;
 }
 #img2:checked ~ .img-b {
     margin-left: -100%;
@@ -94,91 +94,80 @@
 
 
 
+@media (min-width:380px) and (max-width:600px) {
 
-@media (min-width: 380px) {
-    .centerr-headings{
-    
-        position: absolute;
-        top: 520px;
-        left: -10px; 
- 
+.centerr-headings{
+    position: absolute;
+    top: 550px;
+
 }
-
 .center-a{
-    margin-left: 110px;
     font-size: 14px;
-    margin-top: -30px;
-}
+    margin-left: 100px;}
 .center-b{
-    margin-left: 80px;
-    font-size: 16px;
-    margin-top: -10px;
+    font-size: 13px;
+    margin-top: -7px;
+    margin-left: 90px;
 }
-
-
 .buttons-all{
-    margin-left: 50px;
-
+    margin-left: 0px;
 }
-
-
 .but-a{
-      padding: 5px 10px;
-    border-radius: 20px;
-    font-size: 7px;
-    color: white;
-    background-color: rgb(23, 16, 68);
+    padding: 5px 10px;
+    font-size: 6px;
+    margin-left: 30px;
     margin-right: 0px;
-    font-weight: 800;
-
 }
 .but-b{
-      padding: 5px 10px;
-    border-radius: 20px;
-    background-color: white;
-    color: black;
-    font-size: 7px;
-    margin-left: 3px;
-    font-weight: 800;
-    
+    padding: 5px 10px;
+    font-size: 6px;
+    margin-left: 5px;
 }
 .slider{
     position: absolute;
-    top: 590px;
-    left: 5px;
-    text-align: center;
-    overflow: hidden;
-    width: 60%;
-    
-}
-.slider-img{
-    display: flex;
-    width: 30%;
-    margin-left: -70px;
-
+    top: 650px;
+    left: 10px;
+    width: 70%;
 }
 .slider-img img {
     height: 200px;
-    width: 32%;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    transition: all 0.15s ease;
+    width: 100%;
 }
-
 .slider-img input {
-     height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    border: solid #fff 3px;
-    cursor: pointer;
-    transition: all 0.15s ease;
+    height: 10px;
+    width: 10px;
     margin-top: 220px;
-    position: relative;
-    left: 150px;
+    left: 140px;
+}
+.slider-img input:hover {
+    background-color: #fff;
 
 }
+.slider-img {
+    width: 100%;
+}
+    .img-a, .img-b, .img-c, .img-d {
+        width: 100%;
+    }
+    #img1:checked ~ .img-a {
+        margin-left: 0px;
+    }
+    #img2:checked ~ .img-b {
+        margin-left: -100%;
+    }
+    #img3:checked ~ .img-c {
+        margin-left: -200%;
+    }
+    #img4:checked ~ .img-d {
+        margin-left: -300%;
+    }
+    
+
+
+
+
+
+
 
 
 

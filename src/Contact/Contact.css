@@ -25,6 +25,9 @@
 
 
 }
+.headss{
+    margin-left: 0px;
+}
 .flexess{
     display: flex;
     position: relative;
@@ -62,6 +65,7 @@
 .hea{
     position: relative;
     top: 50px;
+    left: -50px;
 }
 .imrate{
     position: relative;
@@ -73,107 +77,84 @@
 }
 
 
-
-
-@media (min-width: 380px) {
-    .details{
+@media (min-width:380px) and (max-width:600px) {
+   .details{
     position: absolute;
-    top: 1890px;
-    /* text-align: center;   */
-    
-}
-
-
-.centers-a{
-    font-size: 18px;
+    top: 2000px;
+   }
+   .centers-a{
+    font-size: 16px;
     position: relative;
-    left: 50px;
-    
-}
-
-
-.centers-b{
+    left: 60px;
+   }
+    .centers-b{
      font-size: 8px;
-     margin-top: -5px;
-    position: relative;
-    left: 80px;
-
-}
-
-
-.centers-c{
-     font-size: 8px;
-     margin-top: -5px;
-    position: relative;
-    left: 80px;
-
-
-
-}
-
-
-.flexess{
-    display: flex;
-    position: relative;
-    
-    left: 10px;
-    top: 80px;
-}
-
-
-.heads-a{
-    font-size: 15px;
-}
-.heads-b{
-    font-size: 6px;
-}
-.men-img{
-    width: 30px;
-    height: 30px;
-}
-
-
-.headss-a{
-    margin-top: 2px;
-    font-size: 10px;
-    margin-left: 2px;
-
-}
-.headss-b{
-    margin-top: -6px;
-    font-size: 8px;
-    margin-left: 2px;
-}
-
-
-.rate{
-    position: relative;
-    top: -45px;
-    left: -48px;
-    width: 110px;
-    height: 110px;
-}
-
-.images-heads{
-    margin-top: -70px;
-}
-.hea{
-    margin-top: -61px;
-}
-.design-img{
-   margin-top: -50px;
-}
-.design-at{
-    width: 140px;
+     position: relative;
+     left: 60px;
+     
+     margin-top: 0px;
+    }
+   
+     .flexess{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+     }
+     .centers-c{
+        font-size: 10px;
+        position: relative;
+        left: 60px;
+        top: 10px;
+     }
+     .heads-a{
+        font-size: 20px;
+        position: relative ;
+        left: 100px;
+     }
+     .heads-b{
+        font-size: 7px;
+        position: relative;
+        left: 90px;
+     }
+     .images-heads{
+        position: relative;
+        left: 30px;
+        top: 50px;
+     }
+        .headss-a{
+            font-size: 15px;
+            position: relative;
+            top: 10px;
+            left: 30px;
+        }
+        .headss-b{
+            font-size: 12px;
+            position: relative;
+            left: 20px;
+            top: 10px;
+        }
+    .rate{
+        margin-top: -5px;
+        width: 90%;
+        margin-left: 90px;
+    }
+  .design-at{
+    width: 200px;
     height: 200px;
-}
-
-
-
-
-.headss{
-    margin-top: -20px ;
-}
+    border-radius: 20px;
+    /* margin-left: 50px; */
+    position: relative;
+    top: -100px;
+    left: 50px;
+  }
+  .men{
+    position: relative;
+    top: 10px;
+    
+  }
+        
 
 
 }

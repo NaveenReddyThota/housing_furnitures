@@ -122,7 +122,7 @@
      top: 290px;
      left: 200px;
      width: 500px;
-     height: 290px;
+     height: 290px; 
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
@@ -131,166 +131,158 @@
 }
 
 
+@media (min-width:380px) and (max-width:600px) {
 
-@media (min-width: 380px) {
-
-   
-    
-    .side-headings{
+.side-headings{
     position: absolute;
-    top: 140px;
-    left: 55px;
+    top: 150px;
+    left: 15px;
     display: flex;
 }
- .left{
-   font-size: 15px;
+.left{
+   font-size: 18px;
    position: relative;
-   top: 50px;
-
-} 
+   top: 80px;
+   left: 10px;
+}
 .left-a{
     font-size: 15px;
     position: relative;
-    top: 38px;
-    
+    left: 10px;
+    top:67px;
 }
 .left-b{
     font-size: 15px;
     position: relative;
-    top: 24px;
+    top: 50px;
+    left: 10px;
 
 }
-.side{
-    margin-top: 9px;
-    margin-left: -15px;
-}
 .right{
-    font-size: 7px;
-    margin-top: 12px;
+    font-size: 8px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+
 }
 .des{
-     padding: 2px 5px;
-    border-radius: 20px;
-    font-size: 5px;
+    padding: 2px 5px;
+    border-radius: 10px;
     background-color: black;
     color: white;
     position: relative;
-    top: -2px;
+    top: 5px;
+    left: 30px;
+    font-size: 8px;
+
 }
 .side-paragraph{
     position: relative;
-    left: 10px;
-    top: 62px;
+    left: 20px;
+    top: 78px;
 }
 .images{
     position: relative;
-    top: 210px;
+    top: 250px;
+    left: 0px;
+    display: flex;  
     
-    display: grid;  
 }
 .left-img{
     background: url(/src/assets/images/designa.png);
     position: absolute;
-    width: 180px;
-    height: 170px;
+    width: 160px;
+    height: 210px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    left: 20px;
-    border-radius: 20px;
-    margin-top: 30px;
-
-    
-    
-}
+    left: 15px;
+    border-radius: 10px;
+} 
 .left-heading{
     position: relative;
     top: 70px;
     left: 10px;
-    font-size: 14px;
     color: white;
+    font-size: 30px;
 }
 .para-a{
      position: relative;
-    top: 70px;
-    font-size: 7px;
+    top: 50px;
     left: 10px;
-
-    /* color: black; */
-}
+    color: white;
+    font-size: 10px;
+} 
 .para-b{
     position: relative;
-    top: 80px;
-    left: 40px;
-    font-size: 10px
-}
-.right-head{
-
-  position: relative;
-  top: 100px;
-
-   
-
-
-}
-.flex{
-
-
-}
-.right-heading{
-    position: relative;
+    top: 40px;
     left: 10px;
-    top: 10px;
-    font-size: 8px;
-    
-    
-}
-.para-c{
-      position: relative;
-    left: 10px;
-    top: 10px;
-    font-size: 5px;
-    
-}
-.right-headings{
-    position: relative;
-    left: 10px;
-    font-size: 10px;
-    top: 30px;
     color: white;
-}
-.para-d{
-      position: relative;
-    left: 10px;
-    top: 20px;
-    font-size: 5px;
-}
+    font-size: 10px;
+} 
 .right-head{
      background: url(/src/assets/images/designb.png);
     position: absolute;
-    top: 34px;
-    font-size: 5px;
-    left: 213px;
-    width: 125px;
-    height: 75px;
+    top: 0px;
+    left: 190px;
+    width: 150px;
+    height: 100px;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 10px;
+    font-size: 12px;
+}  
+.right-heading{
+    position: relative;
+    left: 20px;
+    font-size: 14px;
+
+}  
+.para-c{
+      position: relative;
+    left: 30px;
+    font-size: 10px;
+}    
+.right-headings{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 12px;
+}
+.para-d{
+      position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 10px;
 }
 .right-img{
      background: url(/src/assets/images/designc.png);
      position: relative;
-     top: -85px;
-     left: 214px;
-     font-size: 5px;
-     width: 125px;
-     height: 75px;
+     top: 100px;
+     left: 30px;
+     width: 150px;
+     height: 100px; 
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 10px;
+}              
 
 
-} 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

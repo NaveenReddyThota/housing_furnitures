@@ -7,7 +7,7 @@
   position: absolute;
   top: 0px;
   left: 50px;
-  width: 380px;
+  width: 1420px;
   height: 750px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,100 +73,50 @@ text-align: center;
 
 
 
-
-@media (min-width :380px) {
-
+@media (min-width:380px) and (max-width:600px) {
    .container{
-  background: url(/src/assets/images/furniture.png);
-  position: absolute;
-  top: 0px;
-  left: 17px;
-  right: 18px;
-  width: 380px;
-  height: 180px;
-  max-width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -5;
-}
-
-
-.head{
-text-align: center; 
-   font-size: 18px;
-   margin-top: 40px;
-   margin-left: -40px;
+      width: 360px;
+      height: 220px;
+      position: absolute;
+      left: 10px;
+      top: 0px;
+   }
+   .main-heading{
+      margin-top: -150px;
+   }
+  .head{
+     font-size: 20px;
+  }
+  .headings{
+   font-size: 20px;
+   margin-top: -15px;
+  }
+  .description{
+   font-size: 9px;
+   margin-top: -12px;
+  }
+  .descriptions{
+   font-size: 9px;
+  }
+  .butt-on{
    position: relative;
-   top: 10px;
-}
-
-
-.headings{
-text-align: center; 
-   font-size: 18px;
-   margin-top: 0px;
-   margin-left: -40px;
-
+   left: 120px;
+   padding: 3px 5px;
+   font-size: 9px;
+  }
+  .buttons{
    position: relative;
-   top: 0px;
-}
-
-.description{
-     text-align: center;
-     font-size: 7px;
-     position: relative;
-   top: -10px;
-   margin-left: -40px;
-
-}
-
-.descriptions{
-     text-align: center;
-     font-size: 8px;
-    margin-top: -18px;
-   margin-left: -40px;
-
-    position: relative;
-   top: 0px;
-    
-}
-
-
-
-.butt-on{
-    position: relative;
-    left: 110px;
-    padding: 4px 10px;
-    font-size: 9px;
-    border-radius: 20px;
-    background-color: black;
-    color: white;
-    position: relative;
-   top: 0px;
-}
-
-
-.buttons{
-        position: relative;
-    left: 187px;
-    top: -22px;
-    padding: 4px 10px;
-    font-size: 9px;
-    border-radius: 20px;
-    background-color: white;
-
-
-}
-
-
+   left: 187px;
+   top: 80px;
+   padding: 3px 5px;
+   font-size: 9px;
+  }
 
 
 
 
 
 }
-
-
 
 
 

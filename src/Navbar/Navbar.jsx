@@ -10,7 +10,7 @@ const Navbar = () => {
           <h1 className='title'>Panto</h1>
 
           <ul id='ul-section'>
-            <li className='titles'>Homepage</li>
+            <li className='titls'>Homepage</li>
             <li className='titles'>Customize</li>
             <li className='titles'>Projects</li>
             <li className='titles'>Financing</li>

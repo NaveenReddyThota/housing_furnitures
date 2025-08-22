@@ -5,7 +5,7 @@ const Visit = () => {
   return (
     <div>
 
-      <div>
+       <div>
 
 
         <div className='visits'>
@@ -18,7 +18,7 @@ const Visit = () => {
             <div className='vs-ne'>
               <h1 className='h-left'>Do you have</h1>
               <h1 className='hs-left'>any questions</h1>
-              <p className='l-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, blanditiis.</p>
+              <p className='l-p'>Lorem ipsum dolor sit  amet consec <br /> tetur adipi  sicing elit. Quod, blan <br /> ditiis.</p>
             </div>
 
 
@@ -64,7 +64,7 @@ const Visit = () => {
               <p className='l-num'>+1890 123-52-01</p>
             </div>
 
-
+            <div id=''>
             <div className='l-addr'>
               <p className='l-wor'>working</p>
               <p className='l-nums'>24/7</p>
@@ -75,7 +75,7 @@ const Visit = () => {
               <p className='l-pant'>Panto</p>
             </div>
 
-
+           </div>
 
 
 
@@ -137,7 +137,7 @@ const Visit = () => {
 
 
 
-
+ 
 
 
     </div>

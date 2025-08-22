@@ -75,7 +75,7 @@ text-align: center;
 
 @media (min-width:380px) and (max-width:600px) {
    .container{
-      width: 360px;
+      width: 350px;
       height: 220px;
       position: absolute;
       left: 10px;

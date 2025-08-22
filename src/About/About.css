@@ -140,26 +140,26 @@
     display: flex;
 }
 .left{
-   font-size: 18px;
+   font-size: 12px;
    position: relative;
    top: 80px;
    left: 10px;
 }
 .left-a{
-    font-size: 15px;
+    font-size: 10px;
     position: relative;
     left: 10px;
-    top:67px;
+    top:72px;
 }
 .left-b{
-    font-size: 15px;
+    font-size: 11px;
     position: relative;
-    top: 50px;
+    top: 60px;
     left: 10px;
 
 }
 .right{
-    font-size: 8px;
+    font-size: 6px;
     position: relative;
     top: 10px;
     left: 0px;
@@ -172,8 +172,10 @@
     color: white;
     position: relative;
     top: 5px;
+    
     left: 30px;
     font-size: 8px;
+    
 
 }
 .side-paragraph{
@@ -197,6 +199,7 @@
     background-size: cover;
     position: relative;
     left: 15px;
+    top: 10px;
     border-radius: 10px;
 } 
 .left-heading{
@@ -223,7 +226,7 @@
 .right-head{
      background: url(/src/assets/images/designb.png);
     position: absolute;
-    top: 0px;
+    top: 10px;
     left: 190px;
     width: 150px;
     height: 100px;
@@ -258,7 +261,7 @@
 .right-img{
      background: url(/src/assets/images/designc.png);
      position: relative;
-     top: 100px;
+     top: 110px;
      left: 30px;
      width: 150px;
      height: 100px; 

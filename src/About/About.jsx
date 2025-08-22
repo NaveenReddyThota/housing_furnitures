@@ -31,7 +31,7 @@ const About = () => {
 
          
             <div className='right-head'>
-                 <h1 className='right-heading'>Minimalist Design</h1>
+                 <h1 className='right-heading'>Minimaliist Design</h1>
                 <p className='para-c'>Lorem ipsum dolor sit amet.</p>
             </div>
              <div className='right-img'>
